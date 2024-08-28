@@ -1,0 +1,25 @@
+.main {
+  background-color: aqua;
+}
+
+.newcommententry {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  gap: 0.6rem;
+  margin: 0.8rem;
+  padding: 0.2rem;
+  font-weight: bold;
+}
+.username {
+  padding: 0.4rem;
+}
+
+.button {
+  border: 0.5px solid purple;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-weight: 300;
+  max-width: 25%;
+  cursor: pointer;
+}
