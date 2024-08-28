@@ -16,7 +16,7 @@ export default async function SinglePostPage({ params }) {
   ).rows;
   console.log(comments);
   return (
-    <div>
+    <div className={styles.commentpage}>
       <h2>Blog# {params.id}</h2>
       <p>{blog_post.content}</p>
       <h3>Content Creator: {blog_post.username}</h3>

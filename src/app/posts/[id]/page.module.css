@@ -1,7 +1,3 @@
-.main {
-  background-color: aqua;
-}
-
 .newcommententry {
   display: flex;
   flex-direction: column;
@@ -19,7 +15,10 @@
   border: 0.5px solid purple;
   border-radius: 5px;
   padding: 0.5rem;
-  font-weight: 300;
+  font-size: 15px;
   max-width: 25%;
   cursor: pointer;
+}
+.commentpage {
+  margin: 1.6rem;
 }

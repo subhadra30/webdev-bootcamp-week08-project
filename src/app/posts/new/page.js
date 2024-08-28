@@ -12,7 +12,7 @@ export default function AddBlogPostPage() {
     const content = formData.get("content");
 
     await db.query(
-      `INSERT INTO blog_posts(username, content, created_date) values($1, $2,$3)`,
+      `INSERT INTO blog_posts(username, content, created_date) values($1, $2, $3)`,
       [username, content, new Date()]
     );
     console.log("Post saved");
